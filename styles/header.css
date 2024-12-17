@@ -4,15 +4,15 @@ header .container {
 }
 
 #profile img {
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1rem;
 }
 
 #profile > div {
-  max-width: 16rem;
+  max-width: 296px;
 }
 
 #info {
@@ -26,30 +26,30 @@ header .container {
 }
 
 @media (width >= 80em) {
-  header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    #profile {
+      display: flex;
+      gap: 2rem;
+    }
+    
+    #profile > div {
+      max-width: 384px;
+    }
+    
+    #profile img {
+      width: 176px;
+      height: 176px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 0;
+    }
 
-  #profile {
-    display: flex;
-    gap: 2rem;
-  }
-
-  #profile>div {
-    max-width: 22.5rem;
-  }
-
-  #profile img {
-    width: 11rem;
-    height: 11rem;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 0;
-  }
-
-  #info {
-    width: 17.5rem;
-  }
+    #info {
+      width: 280px;
+    }
 }
