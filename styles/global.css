@@ -41,7 +41,7 @@ html {
   font-family: var(--ff-sans);
 }
 
-bady {
+body {
   background-color: var(--bg-color);
 }
 

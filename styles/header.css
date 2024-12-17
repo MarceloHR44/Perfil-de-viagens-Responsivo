@@ -1,0 +1,6 @@
+header {
+  background-color: var(--shape-transparency);
+  & a:first-child {
+    margin-right: auto;
+  }
+}

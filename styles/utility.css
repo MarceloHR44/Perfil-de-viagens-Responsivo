@@ -18,12 +18,27 @@
   --max-width: 360px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
-  border: solid violet;
 }
 
 .even-columns {
   display: grid;
   gap: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
 }
 
 @media (width >= 80em) {
