@@ -1,0 +1,28 @@
+main {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-block: 1rem;
+  justify-content: center;
+}
+
+main img {
+  width: 20.5rem;
+  height: 20.5rem;
+  object-fit: cover;
+}
+
+@media (width >= 80em) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(4, 286px);
+    gap: 1.5rem;
+    padding-block: 1.5rem;
+  }
+
+  main img {
+    width: 286px;
+    height: 286px;
+    object-fit: cover;
+  }
+}
